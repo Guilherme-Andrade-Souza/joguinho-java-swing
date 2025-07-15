@@ -11,7 +11,7 @@ import game.acoes.ListenerClique;
 import game.upgrades.AuxiliarClique;
 import game.upgrades.FuncionarioDeEscritorio;
 
-//TODO upgrades: Auxiliar de FuncionarioDeEscritorio, Estagiario do TI(Apresenta o primeiro dialogo de lore), Sindicatario, GerenciaCoach, AcionistasIdosos, CafeteiraGratis(Outro Diálogo), 
+//TODO upgrades: Estagiario do TI(Apresenta o primeiro dialogo de lore), Sindicatario, GerenciaCoach, AcionistasIdosos, CafeteiraGratis(Outro Diálogo), 
 
 
 public class Jogo{
@@ -39,7 +39,6 @@ public class Jogo{
         jframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         jframe.setSize(500, 500);
         jframe.setLayout(new FlowLayout());
-        jframe.setVisible(true);
         
         //Timer Cliques Passivos
         
@@ -71,6 +70,7 @@ public class Jogo{
         jframe.add(upgAuxClique);
         jframe.add(upgFuncEscritorio);
         jframe.add(labelContador);
+        jframe.setVisible(true);
     }
 
 }
