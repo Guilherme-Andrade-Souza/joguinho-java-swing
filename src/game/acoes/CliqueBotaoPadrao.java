@@ -7,5 +7,6 @@ public class CliqueBotaoPadrao implements AcaoAoClicar{
     @Override
     public void acaoDeClique(){
         Jogo.contadorCoisinhas += Jogo.valorClique;
+        Jogo.labelContador.setText("Coisinhas: " + Jogo.contadorCoisinhas);
     }
 }
